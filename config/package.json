@@ -1,0 +1,15 @@
+{
+  "name": "strapi-demo-backend",
+  "version": "1.0.0",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build"
+  },
+  "dependencies": {
+    "@strapi/strapi": "^4.10.0",
+    "@strapi/plugin-users-permissions": "^4.10.0",
+    "@strapi/plugin-i18n": "^4.10.0",
+    "pg": "^8.7.3"
+  }
+}
